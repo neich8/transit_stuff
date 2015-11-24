@@ -1,0 +1,62 @@
+// Place all the styles related to the Routes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.th{
+  padding: 10px
+}
+
+.td {
+  padding: 10px
+}
+
+#train-title {
+  padding: 10px;
+  width: 250px;
+}
+
+#direction {
+  margin-left: 10px;
+}
+
+#train-text {
+  text-align: center;
+}
+
+.red {
+  background-color: #c60c30
+}
+
+.blue {
+  background-color: #00a1de
+}
+
+.brown {
+  background-color: #62361b
+}
+
+.green {
+  background-color: #009b3a
+}
+
+.orange {
+  background-color: #f9461c
+}
+
+.purple {
+  background-color: #522398
+}
+
+.pink {
+  background-color: #e27ea6
+}
+
+.yellow {
+  background-color: #f9e300
+}
+
+.dropdown {
+  width: 150px;
+  margin-right: 0px;
+  float: left;
+}

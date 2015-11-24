@@ -1,0 +1,16 @@
+<div class="dropdown">
+  <button id="trains" class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  Select A Train
+  <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+  <% @trains.each do |train| %>
+    <li>
+      <a href=#>
+        <%=train.name %>
+      </a>
+    </li>
+    <% end %>
+  </ul>
+
+</div>

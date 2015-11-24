@@ -1,0 +1,18 @@
+<div id="train-title">
+  <h1 id="train-text"></h1>
+</div>
+<div class="col-md-2"></div>
+<div class="col-md-6">
+  <%= render "train_dropdown", trains: @trains %>
+
+  <%= render "station_dropdown", stations: @stations %>
+
+  <i class="fa fa-sort" id="direction"></i>
+</div>
+<table id="schedule">
+  <tr>
+    <th>Train Line</th>
+    <th>Time Left</th>
+    <th>Direction</th>
+  </tr>
+</table>

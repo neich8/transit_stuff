@@ -1,0 +1,15 @@
+<div class="dropdown">
+<button id="stations" class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  Select A Station
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <% stations.each do |station| %>
+    <li>
+      <a href=# class="<%=trains_class(station)%>">
+        <%= station.station_descriptive_name %>
+      </a>
+    </li>
+    <% end %>
+  </ul>
+
+</div>
